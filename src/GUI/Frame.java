@@ -15,11 +15,11 @@ public class Frame extends JFrame {
 
     public Frame() {
 
-//        setExtendedState(JFrame.MAXIMIZED_BOTH);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        setUndecorated(true);
-        setSize(500, 400);
-        setAlwaysOnTop(true);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
+//        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setUndecorated(true);
+//        setSize(500, 400);
+//        setAlwaysOnTop(true);
 
 
         setVisible(true);
